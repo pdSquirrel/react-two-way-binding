@@ -1,8 +1,11 @@
 import React from 'react';
+import './OutputUser.css';
 
 const outputUser = (props) => {
   return (
-    <div>Username: {props.username}</div>
+    <div>
+      <strong>Username:</strong> {props.username}
+    </div>
   );
 }
 
